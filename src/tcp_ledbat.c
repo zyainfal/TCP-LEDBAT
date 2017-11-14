@@ -18,16 +18,16 @@
 /* resolution of owd */
 #define LP_RESOL       1000
 
-#define  DEBUG_SLOW_START    0
-#define  DEBUG_DELAY         0
-#define  DEBUG_OWD_HZ        0
-#define  DEBUG_NOISE_FILTER  0
-#define  DEBUG_BASE_HISTO    0
+#define  DEBUG_SLOW_START    1
+#define  DEBUG_DELAY         1
+#define  DEBUG_OWD_HZ        1
+#define  DEBUG_NOISE_FILTER  1
+#define  DEBUG_BASE_HISTO    1
 
 /* NOTE: len are the actual length - 1 */
 static int base_histo_len = 10;
 static int noise_filter_len = 4;
-static int target = 1;
+static int target = 100;
 static int gain_num = 1;
 static int gain_den = 1;
 static int do_ss = 0;
